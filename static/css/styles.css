@@ -1,0 +1,74 @@
+/* Global styles */
+body {
+    background-color: #111; /* Dark background for horror theme */
+    color: #ff69b4; /* Pink text */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+.Page_link {
+    display: flex;
+    justify-content: left; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically */
+    padding: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(89, 43, 43, 0.704);
+}
+/* Header styles */
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #832252; /* Pink border */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 4); /* Subtle shadow for depth */
+}
+
+header h3 {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 4); /* Subtle shadow for depth */
+
+    color: #78dc13; /* Slightly lighter text for the subtitle */
+}
+header h4 {
+    font-size: 1.2em;
+    color: #78dc13; /* Slightly lighter text for the subtitle */
+}
+
+/* Link styles */
+a {
+    color: #ff69b4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff; /* Change to white on hover */
+}
+
+/* Post styles */
+article {
+    background-color: #222;
+    border: 1px solid #ff69b4; /* Pink border */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* Glowing effect */
+}
+
+h2 {
+    color: #ff69b4;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #ff69b4; /* Pink border */
+}
